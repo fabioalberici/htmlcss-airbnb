@@ -1,32 +1,55 @@
 /*INIZIO RESET */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 /*FINE RESET*/
 /*foto citta*/
-.romafoto {
-  width: 500px;
-  height: 400px;
+.container {
+  width: 100%;
+  padding: 20px;
+  background: white;
+  border: 1px solid black;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
 }
-.bolofoto {
-  width: 500px;
-  height: 400px;
-  position: relative;
+.fotoroma {
+  width: 600px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
-.milanofoto {
-  width: 500px;
-  height: 400px;
-  position: relative;
+.fotobolo {
+  width: 600px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
-/*fine fotocittà*/
-.milanoscritta{
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.fotomilano {
+  width: 600px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.scrittaroma {
   color: white;
+  position: absolute;
+  left: 270px;
+  top: 250px;
+  font-size: 40px;
+}
+.scrittabolo {
+  color: white;
+  position: absolute;
+  left: 230px;
+  font-size: 40px;
+  top: 700px;
+}
+.scrittamilano {
+  color: white;
+  position: absolute;
+  left: 235px;
+  font-size: 40px;
+  bottom: 200px;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
 }
